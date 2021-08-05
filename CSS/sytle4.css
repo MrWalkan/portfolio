@@ -1,0 +1,569 @@
+
+/* setting margin value 0 to the pages */
+*{
+     margin: 0;
+}
+
+/* For contact us page ----------------------------------------------------------------------------------------------------------------------------------- */
+/* adding css property to the body having specific id */
+    body#page4{
+    /* setting background color to the webpage */
+     background-color: #d2d2d2;
+}
+
+.body1{
+     /* setting the postion of the division to absolute */
+     position: absolute;
+     background-color: #d2d2d2;
+     /* specifying the position */
+     top: 70%;  
+
+}
+    .navbar{
+    /* adding display property as flex */
+     display: flex;
+     background-color: #d2d2d2;
+     margin: 0;
+     /* setting overall padding value 0 */
+     padding: 0;
+    /* setting the position of the element to sticky */
+     position: sticky;
+    /* setting the property of sticky position */
+     Top:0;
+}
+
+    .wlk{
+    /*Setting up multiple fonts for compatibility  */
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* resizing the font to the text */
+     font-size: 25px;
+    /* colouring the text */
+     color: #2e3131;
+     padding: 10px;
+    /* adding padding to the right of the content */
+     padding-right: 720px;
+    /* addding padding to the left of the content */
+     padding-left: 20px;
+    /* making the font thicker or thinner */
+     font-weight: 500;
+}
+
+    .navbar div a{
+    /* adding flex property for resizing the height */
+     line-height: 60px;
+    /* making alignment of the text to right */
+     text-align: right;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 20px;
+     color: #2e3131;
+    /* setting text decorationt to none */
+     text-decoration: none;
+     padding: 16px;
+     padding-left: 20px; 
+     padding-right: 20px;
+     font-weight: 600;
+     /* setting overall margin to 5 pixel */
+     margin: 5px;
+}
+
+    .navbar div a:hover{
+     color: #ececec;
+     background-color: #2e3131;
+    /* making the corners rounded by specifying the radius */
+     border-radius: 10px;
+}
+
+    .content{
+     display: flex;
+}
+    .quote{
+    /* resizing the content */
+     width: 50%;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+    .quote h1{
+     font-size: 80px;
+     font-weight: bold;
+     padding: 10px;
+    /* adding space between each letter */
+     letter-spacing: 4px;
+    /* adding margin from top */
+     margin-top: 40px;
+     color: #202020;
+     background-color: #d1a8a8;
+    /* resizing in the form of pixel */
+     width: 650px;
+    /* specifying the the corners for adding border radius*/
+     border-top-right-radius: 50px;
+     border-bottom-right-radius: 50px;
+}
+    .con{
+     font-size: 29px;
+     font-weight: 300;
+     padding: 30px;
+     margin-top: 20px;
+    /* adding margin from left */
+     margin-left: 40px;
+     text-align: justify;
+}
+
+    .loc{
+     margin-left: 50px;
+     margin-top: 30px;
+}
+
+    .loc{
+     font-size: 20px;
+     color: #494949;
+}
+    .loc a{
+     text-decoration: none;
+     font-size: 15px;
+     font-weight: 500;
+     text-align: center;
+     color: #353535;
+     background-color: #d1a8a8;
+     padding: 20px;
+     border-radius: 30px;
+     width: 20%;
+}
+
+    .loc a:hover{
+     background-color: #ebbebe;
+     color: #202020;
+    }
+
+    .map{
+     margin-top: 50px;
+     margin-left: 40px;
+     width: 90%;
+}
+
+    .forum{
+     padding: 40px;
+     width: 50%;
+}
+
+    .forum H1{
+     text-align: center;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 60px;
+     margin-top: 150px;
+     font-weight: lighter;
+     color: #2e3131;
+}
+
+/* specifying the input box through specified name inside the html tag*/
+    input[name = fn], input[name = ln]{
+     margin-top: 60px;
+     margin-left: 80px;
+     padding: 15px;
+     width: 80%;
+     border-radius: 30px;
+    /* setting the border value to 0 */
+     border:0;
+}
+
+    input[name = en]{
+     margin-top: 20px;
+     margin-left: 80px;
+     padding: 15px;
+    /* resizing the textbox by percentage */
+     width: 90%;
+     border-radius: 30px;
+     border:0;
+}
+
+    textarea{
+     margin-top: 20px;
+     margin-left: 80px;
+     padding: 15px;
+     width: 90%;
+     border-radius: 30px;
+     border:0;
+}
+
+    input[ type = submit]{
+     margin-top: 20px;
+     margin-left: 550px;
+     width: 20%;
+     border-radius: 30px;
+     border: none;
+     padding: 17px;
+     color: rgb(255, 255, 255);
+     font-weight: 300;
+     letter-spacing: 3px;
+     font-size: 15px;
+     background-color:#2e3131;
+    /* to change the cursor to pointer while hovering over the text boxes */
+     cursor: pointer;
+}
+
+/* adding hover properties to the submit buttom */
+    input[ type = submit]:hover{
+     color: #d1a8a8;
+    /* adding box shadow with specified color, blurness and spreading */
+     box-shadow: 0px 0px 3px 8px #ebbebe;
+}
+    .forum h2{
+     margin-left: 120px;
+     width: 490px;
+     margin-top: 40px;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 35px;
+     letter-spacing: 2px;
+     font-weight: 600;
+     padding: 25px;
+     color: #2e3131;
+     background-color: #d1a8a8;
+     border-radius: 30px;
+}
+
+    .connect {
+     margin-top: 30px;
+     margin-left: 140px;
+     bottom: 3%;
+     display: flex;
+     flex-direction: row;
+     width: 40%;
+     bottom: -15%;
+     right: 0%;
+}
+  
+    .connect div a img{
+     margin: 0;
+     padding-left: 50px;
+     width: 40px;
+     margin-bottom: 15px;   
+}
+
+    .cop{
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 12px;
+     margin-top: 25px;
+     margin-left: 250px;
+}
+
+
+/* For Blog page --------------------------------------------------------------------------------------------------------------- */
+    body#page1{
+      background-color: #e9e9e9;
+}
+     .body{
+      position: absolute;
+      background-color: #e9e9e9;
+      top: 70%;
+} 
+
+    .technology{
+      width: 100%;
+      background-position: center;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      position: fixed
+}
+
+    .container1{
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+     margin-top: 40px;
+}
+    .container1 h1{
+    
+     font-size: 70px;    
+     font-weight: 500;
+     text-align: center;
+}
+
+    .tech{
+     margin-top: 40px;
+     font-size: 20px;
+     margin-left: 150px;
+     margin-right: 150px;
+     text-align: justify;
+}
+
+    .flx{
+     font-size: 20px;
+     display: flex;
+     text-align: justify;
+}
+
+    .section1{
+     margin-left: 100px;
+     padding-left: 50px;
+     padding-right: 25px;
+}
+
+    .section2{
+     margin-right: 100px;
+     padding-right: 50px;
+     padding-left: 25px;
+}
+
+/* adding same properties to multiple divisons */
+    .it h5, .sensors h5, .network h5, .trans h5, .energ h5, .science h5, .health h5, .app h5{
+     text-align: center;
+     font-size: 30px;
+     margin-bottom: 30px;
+}
+
+    .section1 div{
+     box-shadow: 0px 0px 20px 10px #d2d2d2;
+     padding: 20px;
+     border-radius: 30px;
+     margin-top: 50px;
+}
+
+    .section2 div{
+     box-shadow: 0px 0px 20px 10px #d2d2d2;
+     padding: 20px;
+     border-radius: 30px;
+     margin-top: 50px;
+}
+
+    .cop1{
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 15px;
+     text-align: center;
+     margin-top: 50px;
+     margin-bottom: 40px;
+}
+
+    .active{
+     background-color: #2e3131;
+     border-radius: 10px;
+    
+}
+
+
+/* For CV page -------------------------------------------------------------------------------------------------------*/
+    .contnt{
+     display: flex;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+    .pro{
+     margin-left: 150px;
+     margin-right: 50px;
+}
+    .about{
+     background-color: #dadfe8;
+     padding: 50px;
+}
+
+    .pp{
+     width: 50%;
+     background-size: cover;
+     border-radius: 150px;
+     margin-top: 50px;
+}
+
+    .hlo h5{
+     font-size: 60px;
+     margin-left: 60px;
+     font-weight: bold;
+     letter-spacing: 2px;
+     margin-bottom: 20px;
+}
+
+    .hlo{
+     font-size: 16px;
+     text-align: justify;
+     padding-right: 20px ;
+     color: #293136;
+     padding-bottom: 15px;
+     margin-right: 15px;
+     border-bottom: 3px solid #293136;
+}
+
+    .dob{
+     margin-top: 10px;
+     font-weight: 600;
+}
+
+    .contc{
+     margin-top: 35px;
+     font-weight: bold;
+     font-size: 35px;
+     letter-spacing: 2px;
+     color: #293136;
+}
+
+    .phn h5{
+     font-size: 20px;
+     font-weight: 750;
+     color: #293136;
+     margin-bottom: 7px;
+    
+}
+    .phn{
+     margin-top: 30px;
+     font-size: 20px;
+     color: #353535;
+}
+
+    .eml h5{
+     font-size: 20px;
+     font-weight: 750;
+     color: #293136;
+     margin-bottom: 7px;
+}
+
+    .eml{
+     margin-top: 30px;
+     font-size: 20px;
+     color: #353535; 
+}
+
+    .address h5{
+     font-size: 20px;
+     font-weight: 750;
+     color: #293136;
+     margin-bottom: 7px;
+}
+
+    .address{
+     margin-top: 30px;
+     font-size: 20px;
+     color: #353535;
+}
+
+    .sco h5{
+     margin-top: 20px;
+     font-size: 40px;
+     color: #353535;
+     font-weight: bold;
+     letter-spacing: 2px;
+}
+    .connect1{
+     margin-top: 30px;
+     margin-left: 0px;
+     bottom: 3%;
+     display: flex;
+     flex-direction: row;
+     width: 40%;
+}
+  
+    .connect1 div a img{
+     margin: 0;
+     padding-right: 40px;
+     width: 40px;
+     margin-bottom: 15px;   
+  }
+
+    .pr{
+     margin-top: 30px;
+     font-size: 16px;
+     text-align: justify;
+}
+
+    .pr h5{
+     font-size: 50px;
+     letter-spacing: 2px;
+     font-weight: bold;
+     margin-bottom: 10px;
+     color: #293136;
+}
+
+    .mea{
+     margin-top: 30px;
+     font-size: 16px;
+     text-align: justify;
+}
+
+    .mea h5{
+     font-size: 50px;
+     letter-spacing: 2px;
+     font-weight: bold;
+     margin-bottom: 10px;
+     color: #293136;
+}
+
+    .Edu h5{
+     font-size: 50px;
+     letter-spacing: 2px;
+     font-weight: bold;
+     margin-bottom: 10px;
+     color: #293136;
+}
+
+    .Edu{
+     margin-top: 30px;
+}
+
+    .tb1 td{
+     padding: 10px;
+     border-bottom: 1.5px solid #293136;
+}
+
+    .hobi h5{
+     font-size: 50px;
+     letter-spacing: 2px;
+     font-weight: bold;
+     margin-bottom: 10px;
+     color: #293136;
+}
+
+    .hobi{
+     margin-top: 30px;
+}
+
+    .hobi {
+     font-size: 20px;
+}
+
+    .hobi ul{
+     margin-top: 20px;
+}
+
+    .hobi ul li{
+     font-size: 16px;
+     padding: 10px;
+}
+
+    .cop3{
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 12px;
+     margin-left: 150px;
+     margin-bottom: 50px;
+}
+ 
+
+ /* for Research page --------------------------------------------------------------------------------------------------------------*/
+    body#page2{
+     background-color: #ffffff;
+}
+
+    .flop{
+     display: flex;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 17px;
+}
+
+ /* selecting multiple image to add same css property */
+     .simdim img, .dimsim img{
+     background-size: cover;
+     width: 100%;
+     margin: 0;
+
+}
+
+    .indx, .indx1, .indx2, .indx3, .indx4, .indx5{
+     margin-bottom: 120px;
+     box-shadow: 0px 0px 20px 15px #d2d2d2;
+}
+
+    .tx1, .tx2,.tx3, .tx4, .tx5, .tx6{
+     padding: 20px;
+     text-align: justify;
+     background-color: #bed8c6;
+}
+
+    .cop4{
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 12px;
+     text-align: center;
+     margin-bottom: 30px;
+}
+

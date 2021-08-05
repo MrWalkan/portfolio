@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact us</title>
+
+    <!-- importing CSS file by specifying directory -->
+    <link rel="stylesheet" href="../CSS/sytle4.css">
+</head>
+
+<!-- Adding id to body tag to uniquely add css property in same CSS file -->
+<body id="page4">
+        <!-- Adding an image with a class to add properties through CSS -->
+        <img class="technology" src="../images/contact.jpg">
+            <div class="body1">
+             <!-- Adding multiple divisions for adding differnet CSS properties to different contents--> 
+             <div class="navbar">
+                 <div class="wlk">W A L K A N corp.</div>
+
+                 <!-- Adding anchor tag to link pages -->
+                 <div><a href="../index.html">Home</a></div>
+                 <div><a href="page1.html">Blogs</a></div>
+                 <div><a href="page2.html">Research</a></div>
+                 <div><a href="page3.html">CV</a></div>
+                 <div><a href="page4.html" class="active" style="color: #ececec;">Contact us</a></div> 
+             </div>
+            <div class="content">
+                <div class="quote">
+
+                    <!-- Adding heading tag which not only changes the font size and boldness but also specify CSS property uniquely -->
+                    <h1>Don't Hesitate,<br/>Just Say Hello.</h1>
+                    <div class="con">Feel free to Email at support@walkancorp.com.np or 
+                        call us at 977-9800-74-0678. We would be happy to help & answer 
+                        your queries. Our tech giant Walkan corp is one of the best to set up & help your new techy bussiness
+                        and also the best well-reknown electronic distributor. Hope you too will support us by giving us feedback defining our 
+                        flaws.</div>
+
+                        <!-- Adding anchor tag to link google map sites -->
+                        <div class='loc'><a href="https://www.google.com/maps/place/City+Centre/@27.7101316,85.3251149,17.33z/data=!4m5!3m4!1s0x39eb19091da0e19b:0xc4598923d9d99381!8m2!3d27.7097955!4d85.3264372">Find us Here</a>&nbsp; &nbsp;at City Center.</div>
+                        <img class='map' src="../images/map.jpg">
+                 </div>
+                
+                <div class="forum">
+                    <H1>Get enrolled in forum.</H1>
+
+                    <!-- Creating a form with different input boxes -->
+                    <form name="contact_form" onsubmit="validateform()">
+
+                         <!-- Creating a table and adding class to add CSS properties -->
+                        <Table>
+                            <tr>
+                                <td><input type="text" placeholder = "First Name" name="fn"></td>
+                                <td><input type="text" placeholder = "Last Name" name="ln"></td>
+                             </tr>
+                             <tr>
+                                 <td colspan="2">
+                                    <input type="text" placeholder = "Email Address" name="en">
+                                 </td>
+                             </tr>
+                             <tr>
+                                <td colspan="2">
+                                    <Textarea name = "area" rows="20" cols="70" placeholder="Write your Comments"></Textarea>  
+                                </td>
+                             </tr>
+                             <tr style="text-align: center;">
+                                 <td colspan="2">
+                                    <input type="submit">  
+                                 </td>
+                             </tr>
+                        </Table>
+                        </form>
+
+                        <!-- adding internal JS -->
+                        <script>
+                            function validateform() {
+                                var f_n = document.forms['contact_form']['fn'].value
+                                var l_n = document.forms['contact_form']['ln'].value
+                                var e_n = document.forms['contact_form']['en'].value
+                                var a_r = document.forms['contact_form']['area'].value                                
+                                                    
+                                if (f_n == "" | l_n == "" | e_n == "" | a_r == "" ) {
+                                    alert("Please fill all the forums!")
+                                }
+                                else {
+                                    alert("Submitted Successfully :-)")
+                                }
+                            }
+                        </script>
+                        <h2>Want To know more about?</h2>
+                        <div class="connect">
+
+                             <!-- Adding anchor tag to link external social sites -->
+                            <div><a href="https://www.facebook.com/bishal.gc.1460"><img src="../images/icons/facebook.png" width="30%"></a></div>
+                            <div><a href="https://twitter.com/BishalG88737663"><img src="../images/icons/twitter.png" width="30%"></a></div>
+                            <div><a href="https://www.youtube.com/channel/UCuETsrzqIaOsdFbi77FISRA?view_as=subscriber"><img src="../images/icons/youtube.png" width="30%"></a></div>
+                            <div><a href="https://www.linkedin.com/in/bishal-gc-857bba152/"><img src="../images/icons/linkedin.png" width="30%"></a></div>
+                            <div><a href="https://open.spotify.com/user/3z8ya6o6p7v2fkc5n1c3yrrqo?si=-wdWQkU8T32JuHjTp5dJAA"><img src="../images/icons/spotify.png" width="30%"></a></div>
+                         </div>
+
+                         <!-- Adding special character which are not present in keyboard -->
+                         <div class='cop'>Copyright&#169; 2020 Walkan Nepal, Inc. All rights reserved.</div>
+                 </div>
+             </div>
+        <div class="bottom"></div>
+    </div>
+</body>
+</html>
